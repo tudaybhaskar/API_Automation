@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Test Suite">
+    <listeners>
+        <listener class-name="utils.ExtentReportManager"/>
+    </listeners>
+    <test name="My Test">
+        <classes>
+            <class name="exampleTests.MyTest"/>
+        </classes>
+    </test>
+</suite>
+
+
+
+
+
+
