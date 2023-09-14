@@ -84,7 +84,7 @@ public class MyTest {
         return responseSpecification;
     }
 
-    @Test(description = " GetUsers data using Builder Pattern")
+    @Test(description = " GetUsers data using Builder Pattern -Master")
     public void getUsersData()
     {
         given()
